@@ -88,7 +88,7 @@ img {
     margin-top: 15px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .section__title {
         font-size: 25px;
     }
@@ -135,7 +135,7 @@ button[type="submit"] {
     font-family: var(--main-font);
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .banner__btn {
         flex-direction: column;
     }
@@ -214,7 +214,7 @@ button[type="submit"] {
 
 /* NAVIGATION */
 .nav-toggle {
-    display: none;/* Ukryj checkbox */
+    display: none; /* Ukryj checkbox */
 }
 
 /* Pokaż hamburger */
@@ -448,7 +448,7 @@ button[type="submit"] {
     max-width: 170px;
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) {
     .service .service__articles {
         flex-wrap: wrap;
     }
@@ -550,7 +550,7 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
     background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .contact__img {
         width: 100%;
     }
