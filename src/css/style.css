@@ -217,9 +217,8 @@ button[type="submit"] {
     display: none; /* Ukryj checkbox */
 }
 
-/* Pokaż hamburger */
 .hamburger {
-    display: none;
+    display: none; /* Ukryj hamburger */
 }
 
 .nav__bar {
