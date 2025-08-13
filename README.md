@@ -3,7 +3,7 @@
 This project was created as an exercise during the JavaScript Developer course, in the advanced HTML and CSS module — building layouts from A to Z.
 
 **Available online at:**  
-[https://car-sharing.netlify.app/](https://car-sharing.netlify.app/)
+[https://car-sharing-project.netlify.app/](https://car-sharing-project.netlify.app/)
 
 ## 🚀 Features
 
@@ -14,14 +14,14 @@ This project was created as an exercise during the JavaScript Developer course, 
 
 Below are example screenshots of the CarSharing app on desktop and mobile devices.
 
-<div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px">
-  <img src="src/docs/screenshots/desktop-view1.png" alt="Desktop view" width="75%" style="margin-right: 10px;">
-  <img src="src/docs/screenshots/mobile-view1.png" alt="Mobile view" width="25%">
+<div style="display: flex; flex-direction: column; justify-content: center; gap: 10px; margin-bottom: 40px">
+  <img src="src/docs/screenshots/desktop-view1.png" alt="Desktop view" style="margin-right: 10px;">
+  <img src="src/docs/screenshots/mobile-view1.png" alt="Mobile view">
 </div>
 
 <div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="src/docs/screenshots/desktop-view2.png" alt="Desktop view" width="75%" style="margin-right: 10px;">
-  <img src="src/docs/screenshots/mobile-view2.png" alt="Mobile view" width="25%">
+  <img src="src/docs/screenshots/desktop-view2.png" alt="Desktop view" style="margin-right: 10px;">
+  <img src="src/docs/screenshots/mobile-view2.png" alt="Mobile view">
 </div>
 
 ## 🛠️ Technologies
