@@ -378,7 +378,7 @@ button[type="submit"] {
 @media screen and (max-width: 768px) {
 
     .banner {
-        height: 85vh;
+        height: 90vh;
     }
 
     .banner__title {
