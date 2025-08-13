@@ -15,13 +15,13 @@ This project was created as an exercise during the JavaScript Developer course, 
 Below are example screenshots of the CarSharing app on desktop and mobile devices.
 
 <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px">
-  <img src="docs/screenshots/desktop-view1.png" alt="Desktop view" width="75%" style="margin-right: 10px;">
-  <img src="docs/screenshots/mobile-view1.png" alt="Mobile view" width="25%">
+  <img src="src/docs/screenshots/desktop-view1.png" alt="Desktop view" width="75%" style="margin-right: 10px;">
+  <img src="src/docs/screenshots/mobile-view1.png" alt="Mobile view" width="25%">
 </div>
 
 <div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="docs/screenshots/desktop-view2.png" alt="Desktop view" width="75%" style="margin-right: 10px;">
-  <img src="docs/screenshots/mobile-view2.png" alt="Mobile view" width="25%">
+  <img src="src/docs/screenshots/desktop-view2.png" alt="Desktop view" width="75%" style="margin-right: 10px;">
+  <img src="src/docs/screenshots/mobile-view2.png" alt="Mobile view" width="25%">
 </div>
 
 ## 🛠️ Technologies
