@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>"Car Sharing"</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+          integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <a href="/" class="header__logo-link">
+            <img src="src/images/Icon Logo Normal.svg" alt="Logo Car Sharing" class="header__logo-img">
+            <p>Car&nbsp;<span>Sharing</span></p>
+        </a>
+<!--Menu hamburger za pomocą czystego css-->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <label for="nav-toggle" class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav class="nav__bar">
+            <ul class="nav__list">
+                <li class="nav__elem"><a href="/" class="nav__link">home</a></li>
+                <li class="nav__elem"><a href="#blog" class="nav__link">blog</a></li>
+                <li class="nav__elem"><a href="#service" class="nav__link">service</a></li>
+                <li class="nav__elem"><a href="#contact" class="nav__link">contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<section class="banner">
+    <div class="container">
+        <h1 class="banner__title">Car Sharing</h1>
+        <p class="banner__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, aperiam aut blanditiis,
+            debitis dolores earum eveniet exercitationem explicabo illo natus possimus quos ratione recusandae
+            reiciendis similique soluta tenetur voluptate voluptatum.</p>
+        <div class="banner__btn">
+            <a href="#" class="btn btn--red">Share a car</a>
+            <a href="#" class="btn btn--white">Key features</a>
+        </div>
+    </div>
+    <div class="arrow">
+        <a href="#blog"><img src="src/images/Icon Arrow Down.svg" alt="Arrow Down" class="arrow__img"></a>
+    </div>
+</section>
+<section class="blog" id="blog">
+    <div class="container">
+        <h2 class="section__title">Blog</h2>
+        <div class="blog__articles">
+            <article class="blog-article">
+                <img src="src/images/photo1.png" alt="photo1" class="blog__img">
+                <h3 class="article__title">Lorem ipsum sit dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+                <a href="#" class="btn btn--red article__button">Read more</a>
+            </article>
+            <article class="blog-article">
+                <img src="src/images/photo2.png" alt="photo2" class="blog__img">
+                <h3 class="article__title">Lorem ipsum sit dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+                <a href="#" class="btn btn--red article__button">Read more</a>
+            </article>
+            <article class="blog-article">
+                <img src="src/images/photo3.png" alt="photo3" class="blog__img">
+                <h3 class="article__title">Lorem ipsum sit dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+                <a href="#" class="btn btn--red article__button">Read more</a>
+            </article>
+        </div>
+    </div>
+</section>
+<section class="service" id="service">
+    <div class="container">
+        <h2 class="section__title service__title">Service</h2>
+        <div class="service__articles">
+            <article class="article-service">
+                <img src="src/images/mini1.png" alt="mini1" class="service__img">
+                <h3 class="article__title service-article-title">Lorem ipsum sit dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna.
+                </p>
+                <a href="#" class="btn btn--red article__button">Read more</a>
+            </article>
+            <article class="article-service">
+                <img src="src/images/mini2.png" alt="mini2" class="service__img">
+                <h3 class="article__title service-article-title">Lorem ipsum sit dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna.</p>
+                <a href="#" class="btn btn--red article__button">Read more</a>
+            </article>
+            <article class="article-service">
+                <img src="src/images/mini1.png" alt="mini3" class="service__img">
+                <h3 class="article__title service-article-title">Lorem ipsum sit dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna.</p>
+                <a href="#" class="btn btn--red article__button">Read more</a>
+            </article>
+            <article class="article-service">
+                <img src="src/images/mini4.png" alt="mini4" class="service__img">
+                <h3 class="article__title service-article-title">Lorem ipsum sit dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna.</p>
+                <a href="#" class="btn btn--red article__button">Read more</a>
+            </article>
+        </div>
+    </div>
+</section>
+<section class="contact" id="contact">
+    <h2 class="section__title contact__title">Contact</h2>
+    <div class="container container--small">
+        <img src="src/images/Form Photo.png" alt="contact-jpg" class="contact__img">
+        <form action="#" class="form-contact">
+            <input type="text" name="name" placeholder="Type your name">
+            <input type="email" name="email" placeholder="Type your e-mail">
+            <textarea id="textarea" placeholder="Type your message"></textarea>
+            <label for="agree" class="checkbox">
+                <input type="checkbox" id="agree">
+                <span></span>
+                I hereby give consent for my personal data included in my application to be processed for the purposes
+                of the recruitment process under the European Parliament’s and Council of the European Union Regulation
+                on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data
+                and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)
+            </label>
+            <button type="submit" class="btn btn--small btn--form">Send</button>
+        </form>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <a href="/" class="header__logo-link footer__logo">
+            <img src="src/images/Icon Logo Normal.svg" alt="footer-logo" class="header__logo-img footer__logo-img">
+            <p class="footer__text-logo">Car&nbsp;<span>Sharing</span></p>
+        </a>
+        <div class="footer__content">
+            <div class="footer__menu">
+                <ul class="footer-link__list--first">
+                    <li><a href="#" class="footer-link">Home page</a></li>
+                    <li><a href="#" class="footer-link">About us</a></li>
+                    <li><a href="#" class="footer-link">Gallery</a></li>
+                    <li><a href="#" class="footer-link">Share regulation</a></li>
+                </ul>
+                <ul class="footer-link__list--second">
+                    <li><a href="#" class="footer-link">Price</a></li>
+                    <li><a href="#" class="footer-link">Our Fleet</a></li>
+                    <li><a href="#" class="footer-link">Our Clients</a></li>
+                    <li><a href="#" class="footer-link">Contact</a></li>
+                </ul>
+            </div>
+            <p class="copyright">Copyright &copy; Coders Lab</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
