@@ -1,4 +1,4 @@
-# Car Sharing
+# CarSharing
 
 This project was created as an exercise during the JavaScript Developer course, in the advanced HTML and CSS module — building layouts from A to Z.
 
