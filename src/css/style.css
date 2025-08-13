@@ -376,6 +376,11 @@ button[type="submit"] {
 }
 
 @media screen and (max-width: 768px) {
+
+    .banner {
+        height: 85vh;
+    }
+
     .banner__title {
         font-size: 50px;
     }
