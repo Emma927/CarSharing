@@ -46,7 +46,7 @@ img {
     .container--small {
         flex-direction: column;
         align-items: center;
-        gap: 40px
+        gap: 40px;
     }
 }
 
@@ -117,7 +117,7 @@ img {
 
 .btn--white {
     background-color: var(--main-color);
-    color: var(--secondary-color)
+    color: var(--secondary-color);
 }
 
 .article__button {
@@ -150,7 +150,7 @@ button[type="submit"] {
     width: 100%;
     z-index: 999;
     border-bottom: 2px solid #FFFFFF33;
-    background-color: #00000066
+    background-color: #00000066;
 }
 
 .header .container {
@@ -615,6 +615,6 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
 @media screen and (max-width: 768px) {
     .footer__menu {
         flex-direction: column;
-        gap: 40px
+        gap: 40px;
     }
 }
