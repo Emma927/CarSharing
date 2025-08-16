@@ -213,7 +213,7 @@ button[type="submit"] {
 }
 
 /* NAVIGATION */
-.nav-toggle {
+.nav__toggle {
     display: none; /* Ukryj checkbox */
 }
 
@@ -259,7 +259,7 @@ button[type="submit"] {
 
 @media screen and (max-width: 768px) {
 
-    .nav-toggle:checked + .hamburger + .nav__bar {
+    .nav__toggle:checked + .hamburger + .nav__bar {
         display: flex;
     }
 
