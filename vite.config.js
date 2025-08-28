@@ -3,7 +3,7 @@ import { defineConfig } from "vite";
 /**
  * Path to cars-sharing
  */
-const carsPath = "";
+const carsPath = ".";
 
 /**
  * Don't change those lines below
