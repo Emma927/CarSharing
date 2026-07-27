@@ -262,6 +262,11 @@ img {
   display: none; /* Hide hamburger */
 }
 
+.icon-close {
+  /* Hide button X-close */
+  display: none;
+}
+
 .nav {
   height: 100%;
 }
@@ -299,8 +304,16 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-  .nav-toggle:checked + .hamburger + .nav {
+  .nav-toggle:checked ~ .nav {
     display: flex;
+  }
+
+  .nav-toggle:checked + .hamburger .icon-menu {
+    display: none;
+  }
+
+  .nav-toggle:checked + .hamburger .icon-close {
+    display: block;
   }
 
   .hamburger {
