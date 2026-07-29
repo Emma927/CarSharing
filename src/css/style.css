@@ -254,7 +254,7 @@ img {
 }
 
 /* NAVIGATION */
-.nav-toggle {
+.header__nav-toggle {
   display: none; /* Hide checkbox */
 }
 
@@ -304,15 +304,15 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-  .nav-toggle:checked ~ .nav {
+  .header__nav-toggle:checked ~ .nav {
     display: flex;
   }
 
-  .nav-toggle:checked + .hamburger .icon-menu {
+  .header__nav-toggle:checked + .hamburger .icon-menu {
     display: none;
   }
 
-  .nav-toggle:checked + .hamburger .icon-close {
+  .header__nav-toggle:checked + .hamburger .icon-close {
     display: block;
   }
 
